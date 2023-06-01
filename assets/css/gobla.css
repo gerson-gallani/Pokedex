@@ -1,0 +1,43 @@
+/* Conf Padrão */
+*{
+    font-family: 'Roboto', sans-serif;
+    /* Considera a borda como tamanho */
+    box-sizing: border-box;
+}
+body{
+    background-color: #f7f5f5;
+}
+
+
+.content{
+    padding: 1rem;
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    min-width: 330px;
+    max-width: 380px;
+}
+/* Midia care */
+@media screen and (min-width: 576px) {
+    .content{
+        max-width: 576px;
+        margin: 0 auto;
+        
+    }
+}  
+
+ @media screen and (min-width: 992px) {
+    .content{
+        max-width: 992px;
+        margin: 0 auto;
+        height: auto;
+        border-radius: 1rem;
+        
+    }
+}  
+
+.content h1{
+    margin: 0;
+}
+
+
+

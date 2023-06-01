@@ -1,0 +1,186 @@
+
+
+.name{
+    margin: .20rem;
+    margin-bottom: 0;
+
+}
+
+.normal {
+    background-color: #a6a877;
+}
+
+.grass {
+    background-color: #77c850;
+}
+
+.fire {
+    background-color: #ee7f30;
+}
+
+.water {
+    background-color: #678fee;
+}
+
+.electric {
+    background-color: #f7cf2e;
+}
+
+.ice {
+    background-color: #98d5d7;
+}
+
+.ground {
+    background-color: #dfbf69;
+}
+
+.flying {
+    background-color: #a98ff0;
+}
+
+.poison {
+    background-color: #a040a0;
+}
+
+.fighting {
+    background-color: #bf3029;
+}
+
+.psychic {
+    background-color: #f65687;
+}
+
+.dark {
+    background-color: #725847;
+}
+
+.rock {
+    background-color: #b8a137;
+}
+
+.bug {
+    background-color: #a8b720;
+}
+
+.ghost {
+    background-color: #6e5896;
+}
+
+.steel {
+    background-color: #b9b7cf;
+}
+
+.dragon {
+    background-color: #6f38f6;
+}
+
+.fairy {
+    background-color: #f9aec7;
+}
+
+/* conf Ol que contem li com os pokes */
+.pokemonOl{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+@media screen and (min-width: 320px) {
+    .pokemonOl{
+        grid-template-columns: 1fr 1fr;
+        
+    }
+    
+}
+
+@media screen and (min-width: 576px) {
+    .pokemonOl{
+        grid-template-columns: 1fr 1fr 1fr;
+        
+    }
+    
+}
+
+@media screen and (min-width: 992px) {
+    .pokemonOl{
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        
+    }
+    
+}
+/* Estilizando layoute poke */
+.pokemonLi{
+    display: flex;
+    flex-direction: column;
+    margin: .5rem;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+
+/* estiliza tipo especifico de background dos pokes */
+.fogo{
+    background-color: #ffb411;
+}
+.pokemonLi .number{
+    color: #000;
+    opacity: .3;
+    text-align: right;
+    font-size: .625rem;
+    width: 160px;
+}
+
+.pokemonLi .detail img{
+    
+    max-width: 100%;
+    height: 70px;    
+    
+}
+.pokemonLi .detail .typer{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+/* Estilizando o tipo do pokemon */
+
+.pokemonLi .detail{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -.3rem;
+}
+.pokemonLi .detail .typer .type {
+    color: #fff;
+    padding: .13rem .3rem;
+    margin: .25rem 0;
+    font-size: .625rem;
+    border-radius: 1rem;
+    filter: brightness(1.1);
+    text-align: center;
+    font-size: .6rem ;
+}
+
+
+
+.pagination{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+}
+
+.pagination button{
+    padding: .25rem .5rem;
+    margin: .25rem 0;
+    font-size: .68rem;
+    color: white;
+    background-color: #6c79db;
+    border: none;
+    border-radius: 1rem;
+}
+
